@@ -3,7 +3,8 @@
 interface Props{
     children: String;
     color?: 'primary' | 'secondary' | 'danger'; 
-    // ? indicates as its optional and we can select the above colors only
+    // ? indicates as its optional and 
+    //we can select the above colors only
     onClick: () => void;
 
 }
